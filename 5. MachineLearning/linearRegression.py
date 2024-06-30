@@ -21,7 +21,9 @@ plt.scatter(x_train, y_train, color="green")
 plt.plot(x_train, x_predict, color="red")
 plt.show()
 
-plt.title = "20% Test Data"
+plt.title = "30% Test Data"
 plt.scatter(x_test, y_test, color="green")
 plt.plot(x_train, x_predict, color="red")
 plt.show()
+
+print(ds.head(80))
